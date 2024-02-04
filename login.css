@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    border: 5px solid white;
+    border-radius: 23px 0 0 20px;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255, 199, 177);
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --------------------------- For the left section: ---------------------------------------- */
+
+.level_1 .big_planet {
+    height: 11em;
+    border-top-left-radius: 20px;
+}
+
+.level_1 .white_line {
+    margin-left: 6em;
+    margin-bottom: 2em;
+}
+
+.level_1 .red_line {
+    margin-left: 17em;
+    margin-bottom: 5em;
+}
+
+.level_2 {
+    text-align: center;
+}
+
+#faded_circle {
+    height: 24em;
+    margin-top: -3em;
+}
+
+.level_3 {
+    display: flex;
+    justify-content: center;
+    margin-top: -16em;
+}
+
+#left_chat, #right_chat {
+    height: 4em;
+    margin-top: 2em;
+}
+
+#left_chat {
+    margin-right: -4em;
+}
+
+#right_chat {
+    margin-left: -4em;
+
+}
+
+#skeleton {
+    height: 20em;
+    z-index: 1;
+}
+
+.level_4 {
+    text-align: center;
+    color: rgb(143, 6, 58);
+}
+
+.level_4 h1 {
+    margin-bottom: 0;
+}
+
+.level_4 h3 {
+    margin-top: 5px;
+}
+
+.level_5 {
+    text-align: right;
+} 
+
+#half_faded {
+    height: 3em;
+    margin-right: -3em;
+    margin-top: -2em;
+    z-index: 5;
+}
+
+.level_6 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.sublevel_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.sublevel_1 .small_planet, .white_line {
+    height: 2em;
+    width: 2em;
+}
+
+.sublevel_1 .small_planet {
+    margin-top: 20%;
+    margin-left: 40%;
+
+}
+
+.sublevel_1 .white_line {
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.sublevel_2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20%;
+}
+
+.sublevel_2 .red_line, .white_line, .small_planet {
+    height: 1.4em;
+    width: 1.4em;
+}
+
+.sublevel_2 .white_line {
+    margin-left: 50%;
+}
+
+.sublevel_2 .red_line, .small_planet {
+    margin-top: 10%;
+}
+
+.sublevel_3 .small_planet {
+    height: 1em;
+    width: 1em;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.level_7 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+}
+
+.tiny_planets {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+
+.tiny_planets .small_planet {
+    height: 5px;
+    width: 5px;
+}
+/*-------------------------- For the right section: --------------------------------------------*/
+
+/* Editing the LOGO: */
+.logo {
+    height: 3em;
+    width: 3em;
+    margin-top: 3em;
+    margin-left: -60%;
+}
+
+.vertical, .horizontal {
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+}
+
+.vertical {
+    height: 3em;
+    width: 5px;
+    margin-left: 45%;
+}
+
+.horizontal {
+    width: 100%;
+    height: 5px;
+    margin-top: -60%;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.logo .top_left, .top_right, .bottom_left, .bottom_right {
+    width: 6px;
+    height: 6px;
+    background-color: brown;
+    border-radius: 3px;
+}
+
+.logo .top_left {
+    position: relative;
+    margin-top: -23px;
+    margin-left: 7px;
+}
+
+.logo .top_right {
+    position: relative;
+    margin-left: auto;
+    margin-top: -6px;
+    margin-right: 7px;
+}
+
+.logo .bottom_left {
+    position: relative;
+    margin-top: 23px;
+    margin-left: 7px;
+}
+
+.logo .bottom_right {
+    position: relative;
+    margin-left: auto;
+    margin-top: -6px;
+    margin-right: 7px;
+}
+
+/* For the log in details */
+.login_details {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: rgb(39, 39, 39);
+}
+
+.login_details h1 {
+    color: rgb(39, 39, 39);
+    margin-bottom: -10px;
+}
+
+.login_details h3 {
+    color: rgb(39, 39, 39);
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+
+#signin_google img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#signin_google {
+    background-color: white;
+    border: 1px solid rgb(97, 97, 97);
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signin_google:hover {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#email_signin {
+    text-align: center;
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+}
+
+#email_signin:hover {
+    font-weight: bold;
+}
+
+.inputs p {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.inputs input {
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+    border: 1px solid rgb(97, 97, 97);
+    width: 100%;
+    font-size: 15px;
+}
+
+input::placeholder {
+    padding-left: 7px;
+}
+
+.checkbox_forgot_pass {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember_me {
+    display: flex;
+}
+
+.checkbox_forgot_pass a {
+    color: rgb(92, 4, 65);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.checkbox_forgot_pass a:hover {
+    font-weight: bold;
+}
+
+.remember_me p {
+    padding: 0;
+    margin: 0 0 0 5px;
+}
+
+
+#Login {
+    background-color: rgb(92, 4, 65);
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-bottom: 5em;
+}
+
+#Login:hover {
+    font-size: 20px;
+}
+
+.create_acc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create_acc p {
+    color: rgb(97, 97, 97);
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.create_acc a {
+    color: rgb(169, 16, 230);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.create_acc a:hover {
+    font-size: 20px;
+}
